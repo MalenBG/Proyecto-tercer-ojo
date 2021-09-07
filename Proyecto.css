@@ -1,22 +1,15 @@
-body{
+body {
     background-color: #181818;
     font-family: Arial, Helvetica, sans-serif;  
 }
 
-.Logo{
+.Logo {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
 }
 
-.Formato{
-    color: #19D897;
-    margin-top: 50px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
-}
-
-.menu{
+.menu {
     flex-wrap: nowrap;
 	padding: 0;
 	background: #19d897;
@@ -29,6 +22,12 @@ body{
     display: flex;
 	justify-content: space-around;
     text-align: center;
+    transition: width 2s linear 1s;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
 }
 
 .menu li a{
@@ -45,4 +44,5 @@ body{
 
 .menu li a:hover{
 	background: #71F1D6;
+    
 }
