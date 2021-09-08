@@ -1,15 +1,26 @@
-body{
+body {
     background-color: #181818;
-    font-family: Arial, Helvetica, sans-serif;  
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.Logo{
+/* Esto es el cambio de la seleccion*/
+::selection {
+    background-color: white; 
+    color: #19d897;
+}
+
+.Logo {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
 }
 
-.menu{
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.menu {
     flex-wrap: nowrap;
 	padding: 0;
 	background: #19d897;
@@ -22,11 +33,7 @@ body{
     display: flex;
 	justify-content: space-around;
     text-align: center;
-}
-
-.sticky{
-    position: sticky;
-    top: 0;
+    transition: width 2s linear 1s;
 }
 
 .menu li a{
@@ -43,4 +50,10 @@ body{
 
 .menu li a:hover{
 	background: #71F1D6;
+
 }
+
+.div2
+
+
+
